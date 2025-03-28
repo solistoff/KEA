@@ -691,6 +691,42 @@ body, html {
         height: 50px;
     }
 }
+@media (max-height: 850px) {
+    .keadescription {
+        height: auto;
+        top: 60%;
+    }
+}
+@media (max-height: 750px) {
+    .keadescription {
+        height: auto;
+        top: 62%;
+    }
+}
+@media (max-height: 630px) {
+    .keadescription {
+        height: auto;
+        top: 64%;
+    }
+}
+@media (max-height: 530px) {
+    .keadescription {
+        height: auto;
+        top: 67%;
+    }
+}
+@media (max-height: 440px) {
+    .keadescription {
+        height: auto;
+        top: 72%;
+    }
+}
+@media (max-height: 345px) {
+    .keadescription {
+        height: auto;
+        top: 76%;
+    }
+}
 @media (max-width: 700px) {
 .pcpart{
     display: none;
