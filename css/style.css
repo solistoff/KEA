@@ -171,7 +171,6 @@ body, html {
     scale: 105%;
     filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
 }
-
 .itemscontainer {
     display: flex;
     flex-direction: column;
@@ -182,9 +181,6 @@ body, html {
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
-
-
 .containerbgimg{
     width: 100%;
     height: 100%;
@@ -208,9 +204,7 @@ body, html {
     line-height: 1.7vw;
     margin-top: 4%;
 }
-
 /* block 1 */
-
 .containermain {
     display: flex;                  /* Используем Flexbox для контейнера */
     flex-direction: column;         /* Элементы будут располагаться вертикально (текст сверху, блоки снизу) */
@@ -660,6 +654,9 @@ body, html {
     
 }
 @media (max-width: 900px) {
+    .containerb1 {
+        width: auto;
+    }
     .containermain {
         height: 340px;
     }
